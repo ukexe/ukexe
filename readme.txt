@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0f172a,50:1e40af,100:0f766e&text=Udhaya%20Kumar%20A&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=AI%20Systems%20%7C%20LLM%20Inference%20%7C%20Backend%20Engineering&descSize=16&descAlignY=55&animation=fadeIn" alt="Udhaya Kumar A - AI Systems, LLM Inference, Backend Engineering" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0f172a,50:1e40af,100:0f766e&text=Udhaya%20Kumar%20A&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=AI%20Infrastructure%20%7C%20LLM%20Systems%20%7C%20Inference%20Engineering&descSize=16&descAlignY=55&animation=fadeIn" alt="Udhaya Kumar A - AI Infrastructure, LLM Systems, Inference Engineering" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=900&lines=Building+measurable+AI+systems;LLM+serving+%7C+benchmarking+%7C+observability;Backend+platforms+with+production+discipline" alt="Typing animation describing Udhaya's engineering focus" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=900&lines=Building+measurable+AI+infrastructure;LLM+serving+%7C+inference+%7C+observability;GPU-aware+systems+with+production+discipline" alt="Typing animation describing Udhaya's engineering focus" />
 </a>
 
 <p>
@@ -24,9 +24,9 @@
 
 ## Engineering Profile
 
-I build AI systems and backend platforms with a focus on LLM inference, observability, and production-style engineering. My recent work centers on GPU-aware serving infrastructure, benchmark automation, cost modeling, and backend APIs that make AI systems easier to measure, operate, and improve.
+I am building toward AI Infrastructure Engineering: LLM serving platforms, inference benchmarking, GPU-aware observability, and cost/performance systems for production AI. My recent work focuses on making model serving measurable, reliable, and economically understandable.
 
-> Current direction: LLM serving platforms, inference benchmarking, GPU observability, reliable FastAPI services, and applied AI workflows that can be explained, tested, and operated.
+> Current direction: LLM systems, inference optimization, GPU telemetry, platform APIs, and applied AI workflows that can be explained, tested, and operated.
 
 ## Technical Focus
 
@@ -37,8 +37,8 @@ I build AI systems and backend platforms with a focus on LLM inference, observab
 </div>
 
 **AI systems:** LLM inference, benchmark harnesses, prompt/runtime evaluation, quantization awareness, model-serving APIs.  
-**Backend engineering:** Python, FastAPI, Pydantic, async services, API design, testing, structured logging.  
-**Infrastructure:** Docker, Kubernetes, KEDA, Prometheus, Grafana, GPU scheduling concepts, CI workflows.  
+**AI infrastructure:** Python, FastAPI, Pydantic, async services, API gateways, testing, structured logging.  
+**Systems platform:** Docker, Kubernetes, KEDA, Prometheus, Grafana, GPU scheduling concepts, CI workflows.  
 **Data and optimization:** NumPy, Pandas, SciPy, scikit-learn, Qiskit, MLflow, experiment tracking.  
 **Frontend for systems tools:** TypeScript, React, Next.js, dashboards, operational UI, data visualization.
 
@@ -46,16 +46,16 @@ I build AI systems and backend platforms with a focus on LLM inference, observab
 
 <div align="center">
   <a href="https://github.com/ukexe/trt-llm-triton-benchmark-suite">
-    <img width="420" src="./triton-llm-card.svg" alt="Animated 3D card for the Triton and TensorRT-LLM benchmark suite" />
+    <img width="420" src="https://raw.githubusercontent.com/ukexe/ukexe/main/triton-llm-card.svg?sanitize=true" alt="Animated 3D card for the Triton and TensorRT-LLM benchmark suite" />
   </a>
   <a href="https://github.com/ukexe/Aegis-LLM-Infra-Kubernetes-vLLM-GPU-Inference-Platform">
-    <img width="420" src="./aegis-llm-card.svg" alt="Animated 3D card for the Aegis LLM inference platform" />
+    <img width="420" src="https://raw.githubusercontent.com/ukexe/ukexe/main/aegis-llm-card.svg?sanitize=true" alt="Animated 3D card for the Aegis LLM inference platform" />
   </a>
   <a href="https://github.com/ukexe/Quantum-Enhanced-Portfolio-Optimizer-QEPO-">
-    <img width="420" src="./qepo-card.svg" alt="Animated 3D card for the Quantum-Enhanced Portfolio Optimizer" />
+    <img width="420" src="https://raw.githubusercontent.com/ukexe/ukexe/main/qepo-card.svg?sanitize=true" alt="Animated 3D card for the Quantum-Enhanced Portfolio Optimizer" />
   </a>
   <a href="https://github.com/ukexe/APGMSS">
-    <img width="420" src="./apgmss-card.svg" alt="Animated 3D card for the AI-powered grievance management system" />
+    <img width="420" src="https://raw.githubusercontent.com/ukexe/ukexe/main/apgmss-card.svg?sanitize=true" alt="Animated 3D card for the AI-powered grievance management system" />
   </a>
 </div>
 
@@ -64,7 +64,7 @@ I build AI systems and backend platforms with a focus on LLM inference, observab
 A reproducible benchmark harness for comparing LLM serving runtimes across latency, throughput, and cost.
 
 - **Problem:** tokens/sec alone hides tail latency, batching behavior, and infrastructure cost.
-- **Architecture:** config-driven Python runner, backend adapters, metrics aggregation, Prometheus export, Docker/Kubernetes templates, and GPU pricing models.
+- **Architecture:** config-driven Python runner, runtime adapters, metrics aggregation, Prometheus export, Docker/Kubernetes templates, and GPU pricing models.
 - **Technical interest:** p50/p95/p99 latency, TTFT, inter-token latency, closed-loop concurrency, quantization paths, and cost per million tokens.
 
 ### Aegis LLM Inference Platform
@@ -72,7 +72,7 @@ A reproducible benchmark harness for comparing LLM serving runtimes across laten
 A production-style Kubernetes platform for serving LLMs through an OpenAI-compatible API backed by vLLM workers on GPU nodes.
 
 - **Problem:** LLM inference is latency-sensitive, GPU-constrained, and difficult to operate without request-level and GPU-level visibility.
-- **Architecture:** FastAPI gateway, mock/vLLM backends, GPU-aware Kubernetes manifests, HPA/KEDA autoscaling, Prometheus metrics, Grafana dashboards, and a Next.js ops dashboard.
+- **Architecture:** FastAPI gateway, mock/vLLM inference runtimes, GPU-aware Kubernetes manifests, HPA/KEDA autoscaling, Prometheus metrics, Grafana dashboards, and a Next.js ops dashboard.
 - **Technical interest:** queue-depth autoscaling, streaming completions, gateway/inference separation, SLO-oriented dashboards, and honest implementation status.
 
 <details>
@@ -83,7 +83,7 @@ A production-style Kubernetes platform for serving LLMs through an OpenAI-compat
 An experimental portfolio optimization platform combining quantum algorithms with classical optimization baselines and a modern web interface.
 
 - **Problem:** portfolio optimization needs explainable comparison between classical baselines and experimental quantum approaches.
-- **Architecture:** Python optimization backend, QAOA experiments, classical mean-variance baselines, MLflow tracking, and a Next.js job interface.
+- **Architecture:** Python optimization engine, QAOA experiments, classical mean-variance baselines, MLflow tracking, and a Next.js job interface.
 - **Technical interest:** algorithmic experimentation paired with tracking, backtesting, and UI workflows instead of a notebook-only prototype.
 
 ### AI-Powered Grievance Management System
@@ -143,7 +143,7 @@ I like systems where engineering decisions can be traced back to measurements: l
 
 ## Contact
 
-I am interested in AI infrastructure, backend systems, applied ML products, and engineering teams that care about measurable, maintainable systems.
+I am interested in AI infrastructure, LLM systems, applied ML products, and engineering teams that care about measurable, maintainable systems.
 
 <div align="center">
   <a href="https://www.linkedin.com/in/udhaya-kumar-a-exe/">

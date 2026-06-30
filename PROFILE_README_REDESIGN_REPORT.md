@@ -38,7 +38,7 @@ Credibility risk:
 - "AI, ML, NLP, Data Science, DevOps" as a single broad phrase reads like keyword stuffing.
 
 Opportunity:
-- Replace personality claims with concrete technical positioning: LLM inference, benchmarking, backend APIs, observability, and applied AI systems.
+- Replace personality claims with concrete technical positioning: LLM inference, benchmarking, platform APIs, observability, and applied AI systems.
 
 ### Socials
 
@@ -74,7 +74,7 @@ Credibility risk:
 - Listing too many tools implies professional competence in all of them. If an interviewer asks about a weaker tool, credibility drops.
 
 Opportunity:
-- Group a smaller stack by domain: AI systems, backend, infrastructure, data/optimization, and frontend for operational tools.
+- Group a smaller stack by domain: AI systems, infrastructure, platform APIs, data/optimization, and frontend for operational tools.
 
 ### GitHub Stats
 
@@ -138,11 +138,11 @@ Opportunity:
 
 ## 3. Redesign Strategy
 
-The new README is designed to reposition the profile from "student with many interests" to "early-career engineer building credible AI systems and backend infrastructure."
+The new README is designed to reposition the profile from "student with many interests" to "early-career engineer building credible AI infrastructure and LLM systems."
 
 Major decisions:
 
-- Lead with a concise engineering identity: AI systems, backend platforms, LLM inference, observability, and cost/performance measurement.
+- Lead with a concise engineering identity: AI infrastructure, LLM systems, inference engineering, observability, and cost/performance measurement.
 - Keep student status implicit rather than central. The profile should be truthful without letting "student" dominate the first impression.
 - Replace broad skill claims with current focus areas tied to public repos.
 - Feature four projects that support the desired narrative.
@@ -175,7 +175,7 @@ Recommended pinned order:
    - Add a short GitHub repo description and topics such as `llm-inference`, `triton`, `tensorrt-llm`, `vllm`, `benchmarking`, `gpu`, `observability`.
 
 2. `Aegis-LLM-Infra-Kubernetes-vLLM-GPU-Inference-Platform`
-   - Strong platform/backend signal.
+   - Strong AI platform and infrastructure signal.
    - Fix the placeholder CI badge (`your-org/vllm-k8s-inference-platform`) before pinning.
    - Add repo description, topics, a real license file, and screenshots that load reliably.
 
@@ -200,7 +200,7 @@ Recommended pinned order:
 
 ## 6. Additional GitHub Profile Enhancements
 
-- Add concise GitHub profile bio: `AI systems + backend engineering | LLM inference, observability, FastAPI, Kubernetes`.
+- Add concise GitHub profile bio: `AI infrastructure + LLM systems | inference, observability, FastAPI, Kubernetes`.
 - Add location and portfolio link if you have a reliable personal site.
 - Add descriptions to every public repo. Empty descriptions make projects harder to scan.
 - Add GitHub topics to top repos so recruiters and maintainers can understand domains quickly.

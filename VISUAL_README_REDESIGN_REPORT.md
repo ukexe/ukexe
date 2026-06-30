@@ -31,18 +31,18 @@ The modern toolbox is large:
 
 The hiring-specific sources are more cautious. They repeatedly say recruiters and hiring managers value fast comprehension, polished pinned repos, clear project READMEs, and evidence of shipped or well-structured work. They often ignore or dislike visual clutter: visitor counters, too many stats widgets, quote widgets, excessive animation, contribution snakes, massive badge walls, Spotify widgets, and gamified badges that do not relate to the role.
 
-The redesigned README therefore uses high-impact visual elements that reinforce the AI/backend story, while excluding elements that would make the profile look gimmicky or generic.
+The redesigned README therefore uses high-impact visual elements that reinforce the AI infrastructure and LLM systems story, while excluding elements that would make the profile look gimmicky or generic.
 
 ## Chosen Visual Techniques
 
 ### Capsule Render Hero
 
-Included because it creates immediate visual identity and makes the README feel like a landing page. The chosen colors are dark blue, cyan, and teal to match an AI infrastructure/backend aesthetic without rainbow clutter.
+Included because it creates immediate visual identity and makes the README feel like a landing page. The chosen colors are dark blue, cyan, and teal to match an AI infrastructure and LLM systems aesthetic without rainbow clutter.
 
 Setup:
 
 ```md
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0f172a,50:1e40af,100:0f766e&text=Udhaya%20Kumar%20A&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=AI%20Systems%20%7C%20LLM%20Inference%20%7C%20Backend%20Engineering&descSize=16&descAlignY=55&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0f172a,50:1e40af,100:0f766e&text=Udhaya%20Kumar%20A&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=AI%20Infrastructure%20%7C%20LLM%20Systems%20%7C%20Inference%20Engineering&descSize=16&descAlignY=55&animation=fadeIn" />
 ```
 
 ### Readme Typing SVG
@@ -52,7 +52,7 @@ Included because a single animated line adds motion and memorability near the he
 Setup:
 
 ```md
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=900&lines=Building+measurable+AI+systems;LLM+serving+%7C+benchmarking+%7C+observability;Backend+platforms+with+production+discipline" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=900&lines=Building+measurable+AI+infrastructure;LLM+serving+%7C+inference+%7C+observability;GPU-aware+systems+with+production+discipline" />
 ```
 
 ### Shields.io CTA Badges
@@ -162,7 +162,7 @@ Setup:
 
 ### Contribution Snake
 
-Excluded from the main README because it is visually fun but widely recognized as a profile decoration. It does not improve the AI systems/backend hiring narrative. It also requires a GitHub Actions workflow and generated assets; including it before setup would create broken images.
+Excluded from the main README because it is visually fun but widely recognized as a profile decoration. It does not improve the AI infrastructure and LLM systems hiring narrative. It also requires a GitHub Actions workflow and generated assets; including it before setup would create broken images.
 
 Optional setup if desired later:
 
@@ -196,7 +196,7 @@ Excluded because it is low-signal and can make the profile look template-generat
 
 ### Spotify Integration
 
-Excluded because it adds personality but not professional signal for AI infrastructure/backend roles. It also requires third-party setup and can distract from repositories.
+Excluded because it adds personality but not professional signal for AI infrastructure roles. It also requires third-party setup and can distract from repositories.
 
 ### WakaTime Integration
 
@@ -204,7 +204,7 @@ Excluded for now because it only becomes valuable if your WakaTime data is accur
 
 ### LeetCode, Codeforces, CodeChef, HackerRank
 
-Excluded because the target brand is AI systems/backend engineering, not competitive programming. Add one only if you are actively applying to roles where coding-platform ranking is a strong signal.
+Excluded because the target brand is AI infrastructure and LLM systems engineering, not competitive programming. Add one only if you are actively applying to roles where coding-platform ranking is a strong signal.
 
 ### Holopin Badges
 
