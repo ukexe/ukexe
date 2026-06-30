@@ -1,0 +1,61 @@
+<svg width="860" height="260" viewBox="0 0 860 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Quantum-Enhanced Portfolio Optimizer</title>
+  <desc id="desc">Animated 3D project card for a quantum and classical portfolio optimization platform.</desc>
+  <style>
+    .bg { fill: #0c1020; }
+    .text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #eef2ff; }
+    .muted { fill: #a5b4fc; opacity: .82; }
+    .violet { fill: #a78bfa; }
+    .cyan { fill: #38bdf8; }
+    .axis { stroke: #818cf8; stroke-width: 1; opacity: .3; }
+    .curve { stroke: #38bdf8; stroke-width: 4; fill: none; filter: url(#glow); }
+    .surface { fill: #312e81; opacity: .7; stroke: #a78bfa; stroke-width: 1; }
+    .surface2 { fill: #0e7490; opacity: .45; }
+    .orbit { stroke: #a78bfa; stroke-width: 1.5; opacity: .65; fill: none; }
+    .spin { animation: spin 7s linear infinite; transform-origin: 690px 128px; }
+    .bob { animation: bob 3.8s ease-in-out infinite; }
+    .dot { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: .45; r: 4; }
+      50% { opacity: 1; r: 7; }
+    }
+  </style>
+  <defs>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="surfaceGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#4c1d95"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+  <rect class="bg" width="860" height="260" rx="26"/>
+  <g transform="translate(506 35)" class="bob">
+    <path class="surface2" d="M30 158L142 76L305 122L194 205Z"/>
+    <path class="surface" d="M44 130L142 52L292 96L194 178Z" fill="url(#surfaceGrad)"/>
+    <path class="axis" d="M44 130L194 178M80 101L230 149M116 73L266 121"/>
+    <path class="axis" d="M92 144L190 66M139 158L237 80M186 172L284 94"/>
+    <path class="curve" d="M70 132C112 78 145 121 176 91C210 58 234 90 272 72"/>
+    <circle cx="70" cy="132" r="5" class="cyan dot"/>
+    <circle cx="176" cy="91" r="5" class="violet dot"/>
+    <circle cx="272" cy="72" r="5" class="cyan dot"/>
+  </g>
+  <g class="spin">
+    <ellipse cx="690" cy="128" rx="92" ry="23" class="orbit"/>
+    <ellipse cx="690" cy="128" rx="92" ry="23" class="orbit" transform="rotate(60 690 128)"/>
+    <ellipse cx="690" cy="128" rx="92" ry="23" class="orbit" transform="rotate(120 690 128)"/>
+    <circle cx="782" cy="128" r="5" class="cyan" filter="url(#glow)"/>
+  </g>
+  <circle cx="690" cy="128" r="10" class="violet" filter="url(#glow)"/>
+  <text x="58" y="62" class="text" font-size="17" letter-spacing="2">FEATURED SYSTEM</text>
+  <text x="58" y="95" class="text" font-size="27" font-weight="700">Quantum-Enhanced Portfolio Optimizer</text>
+  <text x="58" y="128" class="muted text" font-size="15">Experimental optimization platform with quantum and classical baselines.</text>
+  <text x="58" y="160" class="cyan text" font-size="14">Python · Qiskit · CVXPY · MLflow · FastAPI · Next.js</text>
+  <text x="58" y="205" class="muted text" font-size="13">QAOA experiments · backtesting · tracking · portfolio constraints · dashboards</text>
+</svg>

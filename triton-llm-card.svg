@@ -1,0 +1,68 @@
+<svg width="860" height="260" viewBox="0 0 860 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Triton and TensorRT-LLM Benchmark Suite</title>
+  <desc id="desc">Animated 3D project card for an LLM serving benchmark and cost analysis suite.</desc>
+  <style>
+    .bg { fill: #0b1220; }
+    .panel { fill: #111827; stroke: #38bdf8; stroke-width: 1.4; }
+    .side { fill: #0f766e; opacity: .55; }
+    .top { fill: #1e3a8a; opacity: .72; }
+    .grid { stroke: #38bdf8; stroke-width: .7; opacity: .22; }
+    .text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #e5f3ff; }
+    .muted { fill: #94a3b8; }
+    .accent { fill: #38bdf8; }
+    .teal { fill: #2dd4bf; }
+    .glow { filter: url(#glow); }
+    .float { animation: float 4.5s ease-in-out infinite; transform-origin: 430px 130px; }
+    .pulse { animation: pulse 2.3s ease-in-out infinite; }
+    .scan { animation: scan 3.2s linear infinite; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotateX(0deg); }
+      50% { transform: translateY(-8px) rotateX(4deg); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: .45; r: 5; }
+      50% { opacity: 1; r: 8; }
+    }
+    @keyframes scan {
+      0% { transform: translateX(-260px); opacity: 0; }
+      12% { opacity: .65; }
+      88% { opacity: .65; }
+      100% { transform: translateX(850px); opacity: 0; }
+    }
+  </style>
+  <defs>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="edge" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect class="bg" width="860" height="260" rx="26"/>
+  <g opacity=".65">
+    <path class="grid" d="M55 198H800M78 174H824M100 150H846M122 126H868M145 102H891"/>
+    <path class="grid" d="M122 218L312 45M220 218L385 45M318 218L458 45M416 218L531 45M514 218L604 45M612 218L677 45M710 218L750 45"/>
+  </g>
+  <g class="scan">
+    <rect x="0" y="35" width="120" height="190" fill="url(#edge)" opacity=".18"/>
+  </g>
+  <g class="float">
+    <path class="side" d="M185 92L626 61L704 102L260 139Z"/>
+    <path class="top" d="M260 139L704 102L704 161L260 205Z"/>
+    <rect class="panel" x="158" y="63" width="470" height="128" rx="18" transform="skewY(-5)"/>
+    <path d="M188 157C268 133 312 179 383 149C460 116 510 142 590 105" stroke="url(#edge)" stroke-width="5" fill="none" class="glow"/>
+    <circle cx="188" cy="157" r="6" class="accent pulse glow"/>
+    <circle cx="383" cy="149" r="6" class="teal pulse glow"/>
+    <circle cx="590" cy="105" r="6" class="accent pulse glow"/>
+  </g>
+  <text x="58" y="62" class="text" font-size="17" letter-spacing="2">FEATURED SYSTEM</text>
+  <text x="58" y="95" class="text" font-size="27" font-weight="700">Triton + TensorRT-LLM Benchmark Suite</text>
+  <text x="58" y="128" class="muted text" font-size="15">LLM serving benchmarks across latency, throughput, batching, and cost.</text>
+  <text x="58" y="160" class="accent text" font-size="14">Python · Triton · TensorRT-LLM · vLLM · Prometheus · Kubernetes</text>
+  <text x="58" y="205" class="muted text" font-size="13">p95 latency · TTFT · cost per million tokens · quantization sweeps</text>
+</svg>
