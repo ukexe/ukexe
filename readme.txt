@@ -46,16 +46,16 @@ I am building toward AI Infrastructure Engineering: LLM serving platforms, infer
 
 <div align="center">
   <a href="https://github.com/ukexe/trt-llm-triton-benchmark-suite">
-    <img width="420" src="https://raw.githubusercontent.com/ukexe/ukexe/main/triton-llm-card.svg?sanitize=true" alt="Animated 3D card for the Triton and TensorRT-LLM benchmark suite" />
+    <img width="420" src="https://capsule-render.vercel.app/api?type=cylinder&height=160&color=0:0f172a,45:1e40af,100:0f766e&text=Triton%20%2B%20TensorRT-LLM&fontColor=ffffff&fontSize=24&desc=Inference%20benchmarks%20%7C%20latency%20%7C%20cost%20models&descSize=12&descAlignY=68&animation=fadeIn" alt="Animated visual card for the Triton and TensorRT-LLM benchmark suite" />
   </a>
   <a href="https://github.com/ukexe/Aegis-LLM-Infra-Kubernetes-vLLM-GPU-Inference-Platform">
-    <img width="420" src="https://raw.githubusercontent.com/ukexe/ukexe/main/aegis-llm-card.svg?sanitize=true" alt="Animated 3D card for the Aegis LLM inference platform" />
+    <img width="420" src="https://capsule-render.vercel.app/api?type=cylinder&height=160&color=0:111827,45:0f766e,100:1e40af&text=Aegis%20LLM%20Platform&fontColor=ffffff&fontSize=26&desc=GPU-aware%20Kubernetes%20%7C%20vLLM%20%7C%20observability&descSize=12&descAlignY=68&animation=fadeIn" alt="Animated visual card for the Aegis LLM inference platform" />
   </a>
   <a href="https://github.com/ukexe/Quantum-Enhanced-Portfolio-Optimizer-QEPO-">
-    <img width="420" src="https://raw.githubusercontent.com/ukexe/ukexe/main/qepo-card.svg?sanitize=true" alt="Animated 3D card for the Quantum-Enhanced Portfolio Optimizer" />
+    <img width="420" src="https://capsule-render.vercel.app/api?type=cylinder&height=160&color=0:1e1b4b,45:6d28d9,100:0891b2&text=Quantum%20Portfolio%20Optimizer&fontColor=ffffff&fontSize=22&desc=Qiskit%20%7C%20optimization%20%7C%20MLflow%20experiments&descSize=12&descAlignY=68&animation=fadeIn" alt="Animated visual card for the Quantum-Enhanced Portfolio Optimizer" />
   </a>
   <a href="https://github.com/ukexe/APGMSS">
-    <img width="420" src="https://raw.githubusercontent.com/ukexe/ukexe/main/apgmss-card.svg?sanitize=true" alt="Animated 3D card for the AI-powered grievance management system" />
+    <img width="420" src="https://capsule-render.vercel.app/api?type=cylinder&height=160&color=0:06221f,45:0f766e,100:155e75&text=AI%20Grievance%20System&fontColor=ffffff&fontSize=25&desc=Multilingual%20workflow%20%7C%20OCR%20%7C%20realtime%20tracking&descSize=12&descAlignY=68&animation=fadeIn" alt="Animated visual card for the AI-powered grievance management system" />
   </a>
 </div>
 

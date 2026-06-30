@@ -4,15 +4,18 @@
 
 The custom project cards were not broken because of their animation logic. They were referenced with profile-local paths such as `./triton-llm-card.svg`. On the GitHub profile page, repository-local SVGs can fail or render as alt text because GitHub serves raw SVG files with restrictive content handling unless they are sanitized.
 
-Fix applied:
+Final fix applied:
 
-- Replaced relative image paths with absolute sanitized raw GitHub URLs:
-  - `https://raw.githubusercontent.com/ukexe/ukexe/main/triton-llm-card.svg?sanitize=true`
-  - `https://raw.githubusercontent.com/ukexe/ukexe/main/aegis-llm-card.svg?sanitize=true`
-  - `https://raw.githubusercontent.com/ukexe/ukexe/main/qepo-card.svg?sanitize=true`
-  - `https://raw.githubusercontent.com/ukexe/ukexe/main/apgmss-card.svg?sanitize=true`
-- Kept the SVG files local to the profile repository so the assets are controlled, versioned, and not dependent on a third-party animation service.
-- Kept the animations as embedded SVG/CSS animation, which GitHub supports when SVGs are rendered as images. No JavaScript is used.
+- Removed the custom repository-local SVG cards from the README because GitHub rendered them inconsistently on the profile page.
+- Replaced them with Capsule Render project cards using the same actively maintained service already used by the hero banner.
+- Kept each visual card wrapped in a repository link, so the project showcase still drives click-through.
+- Removed the unused local SVG card files from the repository to avoid leaving unreliable visual components behind.
+
+Why this is more reliable:
+
+- Capsule Render is already rendering correctly in the profile hero section.
+- The cards are served from an external image service with correct image headers, avoiding repository-local SVG/Camo edge cases.
+- No JavaScript, browser-only interactivity, or unsupported README component is required.
 
 Sources:
 
